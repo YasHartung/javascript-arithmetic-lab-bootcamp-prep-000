@@ -21,15 +21,14 @@ function inc (n) {
 
 function dec (n) {
   n -= 1
-  return n 
+  return n
 }
 
 function makeInt (n ) {
   n = parseInt(n, 10)
-  return n   
+  return n
 }
 
 function preserveDecimal(n) {
-  n = parseFloat (n)
-  return n 
+  return parseFloat (n)
 }
